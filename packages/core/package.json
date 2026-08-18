@@ -1,0 +1,28 @@
+{
+  "name": "@driftline/core",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/er-Bilim/driftline",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "svg",
+    "geometry",
+    "bezier",
+    "animation"
+  ]
+}
