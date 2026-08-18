@@ -1,0 +1,6 @@
+{
+  "name": "@driftline/react",
+  "peerDependencies": { "react": ">=18" },
+  "dependencies": { "@driftline/core": "0.1.0" } ,
+  "keywords": ["react", "react-component", "animation", "svg", "flow", "nodes"]
+}
